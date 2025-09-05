@@ -18,6 +18,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('api/cinema/movies/', include('cinema.urls', namespace='cinema')),
+    path('', include('cinema.urls', namespace='cinema')),
     path('admin/', admin.site.urls),
 ]
